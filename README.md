@@ -1,7 +1,7 @@
 # Frosted Gray
 Frosted Gray - a minimalistic mainsail theme with a sleek acrylic look
 
-Inspired by [acryl theme for fluidd & mainsail](https://github.com/eliteSchwein/acryl-fluidd-mainsail-theme/) (not supported in my version, future versions will remove the old fluidd css code as its not needed)
+Modified from [acryl theme for fluidd & mainsail](https://github.com/eliteSchwein/acryl-fluidd-mainsail-theme/) (fluidd is not supported in this theme, future versions will remove the old fluidd css code as its not needed. cbf to do now)
 
 
 ![Screenshot - Dashboard](screenshots/image.png)
