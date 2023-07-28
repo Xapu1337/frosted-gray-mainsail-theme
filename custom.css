@@ -12,6 +12,7 @@
                                                    ░                                    ░ ░     
 
 Made with ❤️ by Xapu1337, simple refactoring by future gods (AI)
+Based on Acryl theme by eliteSchwein
 */
 
 body {
@@ -54,6 +55,10 @@ body::before {
 
 .v-btn.error .v-icon__svg {
   fill: var(--v-accent-base);
+}
+
+.theme--dark.v-btn.v-btn--has-bg {
+    background-color: rgba(15, 15, 15, .64);
 }
 
 .theme--dark.v-data-table>.v-data-table__wrapper>table>tbody>tr:hover:not(.v-data-table__expanded__content):not(.v-data-table__empty-wrapper) {
