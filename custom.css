@@ -220,6 +220,12 @@ body::before {
   font-weight: bolder
 }
 
+.v-application .info--text {
+    color: var(--v-primary-base) !important;
+    caret-color: var(--v-primary-lighten1) !important;
+}
+
+
 .webcamImage {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -306,6 +312,7 @@ x-vue-echarts text {
 
 .menuable__content__active {
   background: #0808088c !important;
+  border: 1px solid rgba(255, 255, 255, .25);
 }
 
 .v-navigation-drawer {
