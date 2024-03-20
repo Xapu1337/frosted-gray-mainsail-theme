@@ -33,6 +33,6 @@ git -C ~/printer_data/config/.fluidd-theme pull
 
 # Preview Fluidd
 
-![Screenshot - Dashboard](screenshotfluidd.jpg)
-![Screenshot - Config Editor](screenshot2fluidd.jpg)
-![Screenshot - Settings](screenshot3fluidd.jpg)
+![Screenshot - Dashboard](screenshotfluidd.png)
+![Screenshot - Config Editor](screenshot2fluidd.png)
+![Screenshot - Settings](screenshot3fluidd.png)
