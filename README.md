@@ -25,9 +25,14 @@ git -C ~/printer_data/config/.theme pull
 ```bash
 git -C ~/printer_data/config/.fluidd-theme pull
 ```
-
-
+# Preview Mainsail
 
 ![Screenshot - Dashboard](screenshot.jpg)
 ![Screenshot - Config Editor](screenshot2.jpg)
 ![Screenshot - Settings](screenshot3.jpg)
+
+# Preview Fluidd
+
+![Screenshot - Dashboard](screenshotfluidd.jpg)
+![Screenshot - Config Editor](screenshot2fluidd.jpg)
+![Screenshot - Settings](screenshot3fluidd.jpg)
