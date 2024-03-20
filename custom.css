@@ -15,6 +15,15 @@ Made with ❤️ by Xapu1337, simple refactoring by future gods (AI)
 Based on Acryl theme by eliteSchwein
 */
 
+:root {
+  --v-accent-base: #6600ff;
+  /**
+  Mainsail doesnt provide accent color setting nor does it automatically create one, so we have to use a custom variable.
+  Use https://htmlcolorcodes.com/color-picker/ (or any hex color picker) to select the right accent color for your primary
+  Be creative! (if not, replace the hex above with "var(--v-primary-base)" to just use your primary color)
+  */
+}
+
 body {
   background-color: var(--v-panel-darken1);
   color: var(--v-secondary-base);
@@ -53,6 +62,10 @@ body::before {
   color: var(--v-accent-base) !important;
 }
 
+.v-application .warning {
+    background-color: var(--v-accent-base) !important;
+    border-color: var(--v-accent-base) !important;
+}
 .v-btn.error .v-icon__svg {
   fill: var(--v-accent-base);
 }
@@ -221,8 +234,8 @@ body::before {
 }
 
 .v-application .info--text {
-    color: var(--v-primary-base) !important;
-    caret-color: var(--v-primary-lighten1) !important;
+    color: var(--v-accent-base) !important;
+    caret-color: var(--v-accent-lighten1) !important;
 }
 
 
@@ -307,7 +320,7 @@ x-vue-echarts text {
 }
 
 .v-chip {
-  background-color: var(--v-primary-base) !important;
+  background-color: var(--v-accent-base) !important;
 }
 
 .menuable__content__active {
