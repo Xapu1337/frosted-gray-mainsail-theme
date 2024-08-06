@@ -51,6 +51,10 @@ body::before {
   overflow: hidden;
 }
 
+#page-container {
+  max-width: 100% !important;
+}
+
 .v-application .warning--text {
   color: var(--v-error-base) !important;
   caret-color: var(--v-error-base) !important;
